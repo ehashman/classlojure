@@ -1,0 +1,5 @@
+libclasslojure-clojure (0.7.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #698693)
+
+ -- Elana Hashman <debian@hashman.ca>  Tue, 28 Feb 2017 21:11:55 -0600

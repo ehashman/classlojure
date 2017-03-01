@@ -1,0 +1,19 @@
+Source: libclasslojure-clojure
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Elana Hashman <debian@hashman.ca>,
+Build-Depends: debhelper (>= 10), javahelper (>= 0.32), clojure (>= 1.5), default-jdk
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/libclasslojure-clojure.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/libclasslojure-clojure.git;a=summary
+Homepage: https://github.com/flatland/classlojure
+
+Package: libclasslojure-clojure
+Architecture: all
+Depends: ${java:Depends}, ${misc:Depends}
+Recommends: ${java:Recommends}
+Description: Advanced classloading for Clojure
+ classlojure lets you easily create a classloader with an alternate classpath
+ and evaluate clojure forms in it. This classloader can even use a different
+ version of clojure than your primary classloader.
