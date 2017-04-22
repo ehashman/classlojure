@@ -1,3 +1,9 @@
+libclasslojure-clojure (0.7.1-2) unstable; urgency=medium
+
+  * Add maven packaging.
+
+ -- Elana Hashman <debian@hashman.ca>  Sat, 22 Apr 2017 15:13:33 -0400
+
 libclasslojure-clojure (0.7.1-1) unstable; urgency=medium
 
   * Initial release. (Closes: #698693)
